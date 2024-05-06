@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Palanquin Dark";
+}
+:root{
+   --color-blue:#048bfa;
+   --color-blue2:#8fc0f4;
+   --color-blue3:#09539a;
+   --color-wither:#ffff;
+   --color-bluee:#048bfa;
+   --color-bluen:#006fc7;
+}
+header{
+    padding: 20px;
+    background-color:var(--color-blue3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-wither);
+}
+body{
+    background-color: var(--color-blue2);
+    color:var(--color-wither);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    display: inline-block;
+    padding: 12px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--color-blue3);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+
+
+img{
+    width: 100px;
+    align-items: right;
+}
+input{
+    background-color: var(--color-rosin);
+    border-color: var(--color-pink);
+    border-radius: 6px;
+    color: var(--color-pink);
+}
+.centro{
+    width: 80em;
+    margin: 10em;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: var(--color-blue);
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+img:hover{
+    transform: scaleX(-1);
+}
+button:hover{
+    background-color: var(--color-bluen);
+}
+button:active {
+    background-color: var(--color-blue3);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+.namee{
+    padding: 12px;
+    font-size:20px;
+    background-color: var(--color-bluen);
+    color: var(--color-wither);
+    border-radius: 15px;
+}
+.dig{
+    color: var(--color-wither);
+    font-size: 24px;
+    text-decoration: none;
+    padding: 6px;
+
+}
